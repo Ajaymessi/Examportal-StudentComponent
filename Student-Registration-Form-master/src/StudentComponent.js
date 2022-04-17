@@ -90,7 +90,7 @@ class StudentComponent extends Component{
                                 
                                 <div className="form-group">
                                     <label>MobileNo:</label>
-                                    <input type="tel" placeholder="MobileNo" name="MobileNo" className="form-control"
+                                    <input type="number" placeholder="MobileNo" name="MobileNo" className="form-control"
                                     value={this.state.mobileNo} onChange={this.changeMobileNoHandler}/>
                                 </div>
                                 <div className="form-group">
@@ -105,7 +105,7 @@ class StudentComponent extends Component{
                                 </div>
                                 <div className="form-group">
                                     <label>ZipCode:</label>
-                                    <input type="tel" placeholder="ZipCode" name="ZipCode" className="form-control"
+                                    <input type="number" placeholder="ZipCode" name="ZipCode" className="form-control"
                                     value={this.state.zipCode} onChange={this.changeZipCodeHandler}/>
                                 </div>
                                 <br></br>
